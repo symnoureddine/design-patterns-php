@@ -19,7 +19,7 @@ $router = Router::getInstance('instance_1');
 $router->add('page1', 'page@get1');
 $router->add('page2', 'page@get2');
 
-// Retourne bien les 2 routes
+// return array - Retourne bien les 2 routes
 var_dump($router->getRoutes());
 
 
@@ -27,10 +27,10 @@ var_dump($router->getRoutes());
 $router2 = Router::getInstance('instance_1');
 $router2->add('page3', 'page@get3');
 
-// Retourne bien les 3 routes
+// return array - Retourne bien les 3 routes
 var_dump($router->getRoutes());
 
-// Retourne bien les 3 routes
+// return array - Retourne bien les 3 routes
 var_dump($router2->getRoutes());
 
 
@@ -38,9 +38,9 @@ var_dump($router2->getRoutes());
 $router3 = Router::getInstance('instance_2');
 $router3->add('page3', 'page@get3');
 
-// Retourne bien que les 3 routes de 'instance_1'. La route de 'instance_2' n'a donc pas été prise en compte
+// return array - Retourne bien que les 3 routes de 'instance_1'. La route de 'instance_2' n'a donc pas été prise en compte
 var_dump($router->getRoutes());
 
-// Retourne bien qu'une seule router (la route de 'instance_2')
+// return array - Retourne bien qu'une seule router (la route de 'instance_2')
 var_dump($router3->getRoutes());
 

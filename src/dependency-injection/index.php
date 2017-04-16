@@ -16,17 +16,29 @@ use Mailing\SendMail;
 use Mailing\Mailers\SwiftMailer;
 use Mailing\Mailers\PHPMailer;
 
-require_once 'Mailing/Contracts/MailerInterface.php';
+require_once 'Mailing/Contracts/Mailers/MailerInterface.php';
 require_once 'Mailing/Mailers/SwiftMailer.php';
 require_once 'Mailing/Mailers/PHPMailer.php';
 require_once 'Mailing/SendMail.php';
+
+/**
+ * Dans cette exemple, les Mailers "Mailing\Mailers\SwiftMailer" et "Mailing\Mailers\PHPMailer" implémentents
+ * l'interface/contrat "Mailing\Contracts\Mailier\FormatterInterface".
+ *
+ * La classe "Mailing\SendMail" attend en dépendance dans son constructeur
+ * une classe qui implémente l'interface/contrat "Mailing\Contracts\Mailier\FormatterInterface".
+ *
+ * Et on peut ensuite envoier le message avec la méthode "sendMessage" de la classe "Mailing\SendMail".
+ */
 
 $swiftMailer = new SwiftMailer();
 
 $phpMailer = new PHPMailer();
 
 $sendMail = new SendMail($swiftMailer);
+// return string - Retourne le message de confirmation de SwiftMailer
 var_dump($sendMail->sendMessage());
 
 $sendMail = new SendMail($phpMailer);
+// return string - Retourne le message de confirmation de PHPMailer
 var_dump($sendMail->sendMessage());

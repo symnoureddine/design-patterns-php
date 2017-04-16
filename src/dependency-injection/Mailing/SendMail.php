@@ -2,7 +2,7 @@
 
 namespace Mailing;
 
-use Mailing\Contracts\MailerInterface;
+use Mailing\Contracts\Mailers\MailerInterface;
 
 class SendMail
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mailing\Contracts;
+namespace Mailing\Contracts\Mailers;
 
 interface MailerInterface
 {

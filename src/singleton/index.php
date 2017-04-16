@@ -18,7 +18,7 @@ $router = Router::getInstance();
 $router->add('page1', 'page@get1');
 $router->add('page2', 'page@get2');
 
-// Retourne bien les 2 routes
+// return array - Retourne bien les 2 routes
 var_dump($router->getRoutes());
 
 
@@ -26,8 +26,8 @@ var_dump($router->getRoutes());
 $router2 = Router::getInstance();
 $router2->add('page3', 'page@get3');
 
-// Retourne bien les 3 routes
+// return array - Retourne bien les 3 routes
 var_dump($router->getRoutes());
 
-// Retourne bien les 3 routes
+// return array - Retourne bien les 3 routes
 var_dump($router2->getRoutes());

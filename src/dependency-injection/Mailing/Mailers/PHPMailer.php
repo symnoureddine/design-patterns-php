@@ -2,7 +2,7 @@
 
 namespace Mailing\Mailers;
 
-use Mailing\Contracts\MailerInterface;
+use Mailing\Contracts\Mailers\MailerInterface;
 
 class PHPMailer implements MailerInterface
 {
