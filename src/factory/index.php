@@ -15,6 +15,11 @@ use Cars\CarFactory;
 use Cars\Models\Peugeot;
 use Cars\Models\Renault;
 
+/**
+ * Dans cette exemple,
+ * grèace à la méthode "create" de la classe "Cars\CarFactory" on peux instancier les Models de Cars.
+ */
+
 $peugeot = CarFactory::create('peugeot');
 // return string - Nom du model instancié
 var_dump($peugeot->getName());
