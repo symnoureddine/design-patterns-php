@@ -1,5 +1,7 @@
 # Exemples de Design Patterns en PHP 7
 
+Voici quelques exemples de design patterns en PHP 7.
+
 
 
 
@@ -18,3 +20,12 @@ Auteur de cette exemple :
 [Multiton](https://github.com/stephweb/design-patterns-php/tree/master/src/multiton)
 
 [Singleton](https://github.com/stephweb/design-patterns-php/tree/master/src/singleton)
+
+
+
+
+## Contribuer
+
+### Bugs et vulnérabilités de sécurité
+
+Si vous découvrez une erreur ou si vous avez une suggestion à me faire merci de m'envoi un message.

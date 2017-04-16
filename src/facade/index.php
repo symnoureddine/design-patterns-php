@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Exemple du design pattern "Facade"
+ * Exemple du design pattern "Facade".
  *
- * Ce design pattern permet de cacher la complexité du code derrière un appel statique
- * PS : Si on a besoin de plusieurs instance, il ne faut pas utiliser cet exemple
+ * Ce design pattern permet de cacher la complexité du code derrière un appel statique.
+ * PS : Si on a besoin de plusieurs instance, il ne faut pas utiliser cet exemple.
  */
 
 require_once 'Form/Form.php';
