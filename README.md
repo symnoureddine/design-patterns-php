@@ -15,13 +15,14 @@ Auteur de cette exemple :
 
 
 ## Design Patterns
-[Dependency injection](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection)
 
-[Facade](https://github.com/stephweb/design-patterns-php/tree/master/src/facade)
+* [Dependency injection](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection)
 
-[Multiton](https://github.com/stephweb/design-patterns-php/tree/master/src/multiton)
+* [Facade](https://github.com/stephweb/design-patterns-php/tree/master/src/facade)
 
-[Singleton](https://github.com/stephweb/design-patterns-php/tree/master/src/singleton)
+* [Multiton](https://github.com/stephweb/design-patterns-php/tree/master/src/multiton)
+
+* [Singleton](https://github.com/stephweb/design-patterns-php/tree/master/src/singleton)
 
 
 
