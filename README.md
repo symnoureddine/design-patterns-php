@@ -1,4 +1,4 @@
-# Exemples de Design Patterns en PHP 7
+# Design Patterns - Exemples en PHP 7
 
 Voici quelques exemples de design patterns en PHP 7.
 
