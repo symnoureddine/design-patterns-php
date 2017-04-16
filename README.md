@@ -26,6 +26,6 @@ Auteur de cette exemple :
 
 ## Contribuer
 
-### Bugs et vulnérabilités de sécurité
+### Bugs et suggestions
 
-Si vous découvrez une erreur ou si vous avez une suggestion à me faire merci de m'envoi un message.
+Si vous découvrez une erreur ou si vous avez une suggestion à me faire, merci de m'envoi un message.
