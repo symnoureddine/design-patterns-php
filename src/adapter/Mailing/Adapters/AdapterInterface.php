@@ -12,10 +12,10 @@ interface AdapterInterface
     /**
      * @return string
      */
-    public function confirmmation(): string;
+    public function getConfirmmation(): string;
 
     /**
      * @return string
      */
-    public function error(): string;
+    public function getError(): string;
 }

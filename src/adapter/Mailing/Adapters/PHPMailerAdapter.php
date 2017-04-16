@@ -34,7 +34,7 @@ class PHPMailerAdapter implements AdapterInterface
     /**
      * @return string
      */
-    public function confirmmation(): string
+    public function getConfirmmation(): string
     {
         return $this->mailing->responseConfirmmationMessage();
     }
@@ -42,7 +42,7 @@ class PHPMailerAdapter implements AdapterInterface
     /**
      * @return string
      */
-    public function error(): string
+    public function getError(): string
     {
         return $this->mailing->responseErrorMessage();
     }

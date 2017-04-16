@@ -26,13 +26,22 @@ $swiftMailer = new SwiftMailer();
 
 $mailer = new SwiftMailerAdapter($swiftMailer);
 
-var_dump($mailer->send());
+if ($mailer->send()) {
+    echo $mailer->getConfirmmation().'<hr>';
+} else {
+    echo $mailer->getError().'<hr>';
+}
 
 
-
-// Exemple avec PHPMailer
+// Par exemple, si un jour on veut utiliser la librairie PHPMailer à la place de SwiftMailer,
+// on a juste à changer l'adapter et à lui passer en paramètre l'instance de PHPMailer.
+// Et on aurra rtien d'autre à modifier dans toute notre application.
 $phpMailer = new PHPMailer();
 
 $mailer2 = new PHPMailerAdapter($phpMailer);
 
-var_dump($mailer2->send());
+if ($mailer2->send()) {
+    echo $mailer2->getConfirmmation().'<hr>';
+} else {
+    echo $mailer2->getError().'<hr>';
+}
