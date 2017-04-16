@@ -10,9 +10,9 @@ use Exception;
 final class Router
 {
     /**
-     * @var Router
+     * @var array - Les différentes instances du Router
      */
-    private static $instance;
+    private static $instances = [];
 
     /**
      * URI
@@ -31,7 +31,7 @@ final class Router
     /**
      * Router constructor.
      *
-     * On le met en private pour qu'on ne puis pas instancier le router autrement qu'avec un singleton
+     * On le met en private pour qu'on ne puis pas instancier le router autrement qu'avec un Multiton
      */
     private function __construct()
     {
@@ -39,17 +39,18 @@ final class Router
     }
 
     /**
-     * Singleton
+     * Multiton
      *
+     * @param string $key
      * @return Router
      */
-    public static function getInstance(): self
+    public static function getInstance(string $key): self
     {
-        if (self::$instance === null) {
-            self::$instance = new self();
+        if (!isset(self::$instances[$key])) {
+            self::$instances[$key] = new self();
         }
 
-        return self::$instance;
+        return self::$instances[$key];
     }
 
     /**

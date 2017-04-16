@@ -22,7 +22,7 @@ $router->add('page2', 'page@get2');
 var_dump($router->getRoutes());
 
 
-// On instancie de nouveau le Router
+// On instancie de nouveau le Router (retournera la même instance que la 1ère instance du Router)
 $router2 = Router::getInstance();
 $router2->add('page3', 'page@get3');
 
