@@ -15,6 +15,8 @@ Auteur de cette exemple :
 
 
 ## Design Patterns
+[Dependency injection](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection)
+
 [Facade](https://github.com/stephweb/design-patterns-php/tree/master/src/facade)
 
 [Multiton](https://github.com/stephweb/design-patterns-php/tree/master/src/multiton)
