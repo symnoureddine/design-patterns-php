@@ -3,7 +3,7 @@
 namespace Form;
 
 /**
- * Classe pour générer des forms
+ * Classe pour générer des formulaires
  */
 final class Form
 {

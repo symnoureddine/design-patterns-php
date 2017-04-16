@@ -3,7 +3,7 @@
 namespace Facades;
 
 /**
- * Facade pour les helpers de la classe Form
+ * Facade de la classe Form\Form
  */
 final class Form extends Facade
 {
