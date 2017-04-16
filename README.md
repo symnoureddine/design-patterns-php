@@ -1,6 +1,8 @@
-# Design Patterns - Exemples en PHP 7
+# Design Patterns - Exemples avec PHP 7
 
 Voici quelques exemples de design patterns en PHP 7.
+
+
 
 
 
@@ -14,15 +16,30 @@ Auteur de cette exemple :
 
 
 
+
+
 ## Design Patterns
 
 * [Dependency injection](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection)
 
 * [Facade](https://github.com/stephweb/design-patterns-php/tree/master/src/facade)
 
+* [Factory](https://github.com/stephweb/design-patterns-php/tree/master/src/factory)
+
 * [Multiton](https://github.com/stephweb/design-patterns-php/tree/master/src/multiton)
 
 * [Singleton](https://github.com/stephweb/design-patterns-php/tree/master/src/singleton)
+
+
+
+
+
+
+## Other Design Patterns
+
+* [MVC (Model-View-Controller)](https://github.com/stephweb/mvc-pattern-php)
+
+
 
 
 

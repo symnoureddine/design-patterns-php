@@ -10,14 +10,14 @@
  * quand nous avons besoin et ceux sans avoir à écrire en dur quelques dépendances que ce soit.
  */
 
-use Mailing\SendMail;
-use Mailing\Mailers\SwiftMailer;
-use Mailing\Mailers\PHPMailer;
-
 require_once 'Mailing/Contracts/Mailers/MailerInterface.php';
 require_once 'Mailing/Mailers/SwiftMailer.php';
 require_once 'Mailing/Mailers/PHPMailer.php';
 require_once 'Mailing/SendMail.php';
+
+use Mailing\SendMail;
+use Mailing\Mailers\SwiftMailer;
+use Mailing\Mailers\PHPMailer;
 
 /**
  * Dans cette exemple, les Mailers "Mailing\Mailers\SwiftMailer" et "Mailing\Mailers\PHPMailer" implémentents
