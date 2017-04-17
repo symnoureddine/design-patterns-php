@@ -20,6 +20,8 @@ Auteur de cette exemple :
 
 ## Design Patterns
 
+* [Active record](https://github.com/stephweb/design-patterns-php/tree/master/src/active-record)
+
 * [Adapter](https://github.com/stephweb/design-patterns-php/tree/master/src/adapter)
 
 * [Decorator](https://github.com/stephweb/design-patterns-php/tree/master/src/decorator)
@@ -31,6 +33,8 @@ Auteur de cette exemple :
 * [Factory](https://github.com/stephweb/design-patterns-php/tree/master/src/factory)
 
 * [Multiton](https://github.com/stephweb/design-patterns-php/tree/master/src/multiton)
+
+* [Observer](https://github.com/stephweb/design-patterns-php/tree/master/src/observer)
 
 * [Singleton](https://github.com/stephweb/design-patterns-php/tree/master/src/singleton)
 

@@ -37,12 +37,12 @@ if ($mailer->send()) {
  */
 $phpMailer = new PHPMailer();
 
-$mailer2 = new PHPMailerAdapter($phpMailer);
+$mailer = new PHPMailerAdapter($phpMailer);
 
-if ($mailer2->send()) {
-    echo $mailer2->getConfirmmation().'<hr>';
+if ($mailer->send()) {
+    echo $mailer->getConfirmmation().'<hr>';
 } else {
-    echo $mailer2->getError().'<hr>';
+    echo $mailer->getError().'<hr>';
 }
 
 
