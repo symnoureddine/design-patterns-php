@@ -5,8 +5,8 @@
 
 ## Description
 
-Ce design pattern permet de faire en sorte que le Model serve à la fois d'entitée,
-et à la fois pour faire des apels à la base de données.
+Ce design pattern permet de faire en sorte qu'un Model instancié serve à la fois d'entité,
+et à la fois pour faire des appels à la base de données.
 
 
 
