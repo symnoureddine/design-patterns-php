@@ -1,0 +1,6 @@
+<?php
+
+/**
+ * Decorator (Décorateur)
+ */
+

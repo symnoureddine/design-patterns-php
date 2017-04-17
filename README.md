@@ -22,6 +22,8 @@ Auteur de cette exemple :
 
 * [Adapter](https://github.com/stephweb/design-patterns-php/tree/master/src/adapter)
 
+* [Decorator](https://github.com/stephweb/design-patterns-php/tree/master/src/decorator)
+
 * [Dependency injection](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection)
 
 * [Facade](https://github.com/stephweb/design-patterns-php/tree/master/src/facade)
