@@ -5,7 +5,7 @@
 
 ## Voici un exemple du design pattern Facory en PHP 7
 
-* [Facory - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/facory/index.php)
+* [Facory - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/factory/index.php)
 
 
 
