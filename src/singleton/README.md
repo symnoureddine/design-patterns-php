@@ -5,7 +5,7 @@
 
 ## Voici un exemple du design pattern singleton en PHP 7
 
-* [Singleton - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/Singleton/index.php)
+* [Singleton - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/singleton/index.php)
 
 
 
