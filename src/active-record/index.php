@@ -21,7 +21,7 @@ $article->save();
 
 
 /**
- * Dans cette exemple, on ajoute un modifie un Article WHERE son id
+ * Dans cette exemple, on modifie un Article (celui qui a l'id 12)
  */
 $article = Article::load()->find(12);
 $article->title = 'Titre 2';

@@ -56,6 +56,7 @@ class Article
         $this->id = $id;
 
         // SELECT * FROM articles WHERE id = ?...
+        
         return $this;
     }
 
