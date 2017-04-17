@@ -1,11 +1,11 @@
-# Facory - Design Patterns - Exemple avec PHP 7
+# Factory - Design Patterns - Exemple avec PHP 7
 
 
 
 
-## Voici un exemple du design pattern Facory en PHP 7
+## Voici un exemple du design pattern Factory en PHP 7
 
-* [Facory - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/factory/index.php)
+* [Factory - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/factory/index.php)
 
 
 
