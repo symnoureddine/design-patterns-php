@@ -1,14 +1,5 @@
 <?php
 
-/**
- * Exemple du design pattern "Adapter".
- *
- * Ce design pattern permet d’adapter l’interface d’un objet sans modifier l’objet en lui même.
- *
- * Le but est de faire en sorte que si un jour on a à changer de librairie, qu'on ai juste l'adaptateur à changer
- * sans rien avoir à modifier dans l'application.
- */
-
 require_once 'Mailing/Adapters/AdapterInterface.php';
 require_once 'Mailing/MailersLibraries/SwiftMailer.php';
 require_once 'Mailing/Adapters/SwiftMailerAdapter.php';
