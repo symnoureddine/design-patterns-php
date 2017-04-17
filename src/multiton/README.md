@@ -5,7 +5,7 @@
 
 ## Voici un exemple du design pattern Multiton en PHP 7
 
-* [Multiton - Source](https://github.com/stephweb/design-patterns-php/tree/master/src/multiton/index.php)
+* [Multiton - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/multiton/index.php)
 
 
 

@@ -5,7 +5,7 @@
 
 ## Voici un exemple du design pattern Facade en PHP 7
 
-* [Facade - Source](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection/index.php)
+* [Facade - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/dependency-injection/index.php)
 
 
 

@@ -5,7 +5,7 @@
 
 ## Voici un exemple du design pattern Adapter en PHP 7
 
-* [Adapter - Source](https://github.com/stephweb/design-patterns-php/tree/master/src/adapter/index.php)
+* [Adapter - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/adapter/index.php)
 
 
 
