@@ -1,0 +1,18 @@
+# Singleton - Design Patterns - Exemple avec PHP 7
+
+
+
+
+## Voici un exemple du design pattern singleton en PHP 7
+
+* [Singleton - Source](https://github.com/stephweb/design-patterns-php/tree/master/src/Singleton/index.php)
+
+
+
+
+
+
+### Description
+
+Ce design pattern permet de retourner qu'une seule instance d'une classe dans toute une application.
+PS : On utilise généralement ce design pattern si plusieurs instance d'un classe poserai problème(s).

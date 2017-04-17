@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Exemple du design pattern "Factory".
- *
- * Ce design pattern permet d'instancier une classe via un Factory.
- * La classe exacte de l'objet n'est donc pas connue par l'appelant.
- */
-
 require_once 'Cars/CarFactory.php';
 require_once 'Cars/Models/Peugeot.php';
 require_once 'Cars/Models/Renault.php';

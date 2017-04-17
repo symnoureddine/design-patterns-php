@@ -1,13 +1,5 @@
 <?php
 
-/**
- * Exemple du design pattern "Multiton".
- *
- * Ce design pattern ressemble au design pattern "Singleton"
- * à la différence que avec le Multiton on peut effectuer plusieurs instances d'une même classe
- * En précisant une un paramètre à la méthode getInstance.
- */
-
 require_once 'Routing/Router.php';
 
 use Routing\Router;

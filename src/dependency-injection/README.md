@@ -3,9 +3,9 @@
 
 
 
-## Voici un exemple du design pattern Dependency injection en PHP 7
+## Voici un exemple du design pattern Dependency injection (injection de dépendances) en PHP 7
 
-* [Adapter - Source](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection/index.php)
+* [Dependency injection - Source](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection/index.php)
 
 
 
