@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Singleton
+ */
+
 require_once 'Routing/Router.php';
 
 use Routing\Router;

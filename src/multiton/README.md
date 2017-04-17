@@ -16,4 +16,4 @@
 
 Ce design pattern ressemble au design pattern "Singleton"
 à la différence que avec le Multiton on peut effectuer plusieurs instances d'une même classe
-En précisant une un paramètre à la méthode getInstance.
+en précisant une un paramètre à la méthode getInstance.

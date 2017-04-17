@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Adapter
+ */
+
 require_once 'Mailing/Adapters/AdapterInterface.php';
 require_once 'Mailing/MailersLibraries/SwiftMailer.php';
 require_once 'Mailing/Adapters/SwiftMailerAdapter.php';

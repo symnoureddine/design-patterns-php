@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Multiton
+ */
+
 require_once 'Routing/Router.php';
 
 use Routing\Router;

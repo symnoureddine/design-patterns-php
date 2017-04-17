@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Facory
+ */
+
 require_once 'Cars/CarFactory.php';
 require_once 'Cars/Models/Peugeot.php';
 require_once 'Cars/Models/Renault.php';

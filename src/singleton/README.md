@@ -15,4 +15,5 @@
 ### Description
 
 Ce design pattern permet de retourner qu'une seule instance d'une classe dans toute une application.
+
 PS : On utilise généralement ce design pattern si plusieurs instance d'un classe poserai problème(s).

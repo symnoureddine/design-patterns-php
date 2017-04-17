@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Dependency injection (injection de dépendances)
+ */
+
 require_once 'Mailing/Contracts/Mailers/MailerInterface.php';
 require_once 'Mailing/Mailers/SwiftMailer.php';
 require_once 'Mailing/Mailers/PHPMailer.php';

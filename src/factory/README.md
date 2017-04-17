@@ -15,4 +15,5 @@
 ### Description
 
 Ce design pattern permet d'instancier une classe via un Factory.
+
 La classe exacte de l'objet n'est donc pas connue par l'appelant.
