@@ -3,7 +3,7 @@
 
 
 
-## Voici un exemple de design patterns Adapter en PHP 7
+## Voici un exemple du design pattern Adapter en PHP 7
 
 * [Adapter - Source](https://github.com/stephweb/design-patterns-php/tree/master/src/adapter/index.php)
 
@@ -13,8 +13,6 @@
 
 
 ### Description
-
-Exemple du design pattern "Adapter".
 
 Ce design pattern permet d’adapter l’interface d’un objet sans modifier l’objet en lui même.
 
