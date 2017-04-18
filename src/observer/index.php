@@ -24,14 +24,14 @@ $videoObserver = new VideoObserver();
 // On instancie un fichier
 $file = new File();
 
-// On attache des Observers
+// On attache des Observers au fichier
 $file->attach($audioObserver);
 $file->attach($imageObserver);
 $file->attach($videoObserver);
 
-// On détache un Observer
+// On détache un Observer du fichier
 $file->dettach($audioObserver);
 
-// On modifie le nom d'un fichier
-// Ceci va automatiquement notifier les Observer
+// On modifie le nom du fichier
+// Ceci va automatiquement notifier les Observers attaché au fichier
 $file->setName('Fichier 1');
