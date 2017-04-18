@@ -6,12 +6,12 @@
 
 require_once 'Message/ArticleInterface.php';
 require_once 'Message/Article.php';
-require_once 'Message/Decorators/ArticleAddDecorator.php';
-require_once 'Message/Decorators/ArticleEditDecorator.php';
+require_once 'Message/ArticleDecorators/ArticleAddDecorator.php';
+require_once 'Message/ArticleDecorators/ArticleEditDecorator.php';
 
 use Message\Article;
-use Message\Decorators\ArticleAddDecorator;
-use Message\Decorators\ArticleEditDecorator;
+use Message\ArticleDecorators\ArticleAddDecorator;
+use Message\ArticleDecorators\ArticleEditDecorator;
 
 $article = new Article();
 

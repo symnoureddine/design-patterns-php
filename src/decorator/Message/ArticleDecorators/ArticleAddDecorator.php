@@ -1,10 +1,10 @@
 <?php
 
-namespace Message\Decorators;
+namespace Message\ArticleDecorators;
 
 use Message\ArticleInterface;
 
-class ArticleEditDecorator implements ArticleInterface
+class ArticleAddDecorator implements ArticleInterface
 {
     /**
      * ArticleInterface
@@ -12,7 +12,7 @@ class ArticleEditDecorator implements ArticleInterface
     private $article;
 
     /**
-     * ArticleEditDecorator constructor.
+     * ArticleAddDecorator constructor.
      */
     public function __construct(ArticleInterface $article)
     {
@@ -24,6 +24,6 @@ class ArticleEditDecorator implements ArticleInterface
      */
     public function getMessage(): string
     {
-        return $this->article->getMessage().' edité.';
+        return $this->article->getMessage().' ajouté.';
     }
 }
