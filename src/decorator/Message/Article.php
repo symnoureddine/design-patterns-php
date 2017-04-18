@@ -9,6 +9,6 @@ class Article implements ArticleInterface
      */
     public function getMessage(): string
     {
-        return 'Article 1 : ';
+        return 'Article 1 :';
     }
 }

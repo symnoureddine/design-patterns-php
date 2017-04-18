@@ -25,5 +25,5 @@ var_dump($article->getMessage());
 
 $article = new ArticleEditDecorator($article);
 
-// return string : 'Article 1 : ajouté.'
+// return string : 'Article 1 :  ajouté. edité.'
 var_dump($article->getMessage());
