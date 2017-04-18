@@ -16,15 +16,22 @@ use File\Observers\ImageObserver;
 use File\Observers\VideoObserver;
 
 
+// On instancie les Observers
 $audioObserver = new AudioObserver();
-
 $imageObserver = new ImageObserver();
-
 $videoObserver = new VideoObserver();
 
+// On instancie un fichier
 $file = new File();
+
+// On attache des Observers
 $file->attach($audioObserver);
 $file->attach($imageObserver);
 $file->attach($videoObserver);
+
+// On détache un Observer
 $file->dettach($audioObserver);
+
+// On modifie le nom d'un fichier
+// Ceci va automatiquement notifier les Observer
 $file->setName('Fichier 1');
