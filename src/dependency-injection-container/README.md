@@ -9,8 +9,6 @@ Dependency injection container veut dire "Conteneur d'injection de dépendances"
 
 Le but de ce design pattern et d'être capable de résoudre les dépendances d'un objet simplement.
 
-C'est un peu comme un système de Factory mais qui a l'avantage d'être dynamique et d'être bougé au fu et à mesure.
-
 
 
 

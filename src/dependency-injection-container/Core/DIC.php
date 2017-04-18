@@ -36,7 +36,7 @@ class DIC
     }
 
     /**
-    * Servira à retourner à chaque fois une nouvelle instance
+     * Servira à retourner à chaque fois une nouvelle instance
      *
      * @param string $key
      * @param callable $callable

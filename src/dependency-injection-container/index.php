@@ -39,7 +39,8 @@ $container->set('SwiftMailer', function ($container) {
 
 // On donne comme valeur une instance de "Mailing\SendMail" à la clé SendMail.
 // Et on injecte en dépendance à "Mailing\SendMail" une instance de "Mailing\Mailers\SwiftMailer".
-// On utilise la méthode "set" à chaque fois une nouvelle instance de "Mailing\Mailers\SwiftMailer".
+// On utilise la méthode "setFactory" à chaque fois une nouvelle instance de "Mailing\Mailers\SwiftMailer".
+// C'est un peu comme un système de Factory mais qui a l'avantage d'être dynamique et d'être bougé au fu et à mesure.
 $container->setFactory('SendMail', function ($container) {
     return new SendMail($container->get('SwiftMailer'));
 });
