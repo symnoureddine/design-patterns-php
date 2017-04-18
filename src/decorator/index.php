@@ -4,3 +4,26 @@
  * Decorator
  */
 
+require_once 'Message/ArticleInterface.php';
+require_once 'Message/Article.php';
+require_once 'Message/Decorators/ArticleAddDecorator.php';
+require_once 'Message/Decorators/ArticleEditDecorator.php';
+
+use Message\Article;
+use Message\Decorators\ArticleAddDecorator;
+use Message\Decorators\ArticleEditDecorator;
+
+$article = new Article();
+
+// return string : 'Article 1 : '
+var_dump($article->getMessage());
+
+$article = new ArticleAddDecorator($article);
+
+// return string : 'Article 1 : ajouté.'
+var_dump($article->getMessage());
+
+$article = new ArticleEditDecorator($article);
+
+// return string : 'Article 1 : ajouté.'
+var_dump($article->getMessage());
