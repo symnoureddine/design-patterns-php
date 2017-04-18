@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Dependency injection (injection de dépendances)
+ * Dependency injection
  */
 
 require_once 'Mailing/Contracts/Mailers/MailerInterface.php';

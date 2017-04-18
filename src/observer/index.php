@@ -1,5 +1,5 @@
 <?php
 
 /**
- * Observer (observateur)
+ * Observer
  */

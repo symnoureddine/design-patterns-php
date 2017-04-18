@@ -5,6 +5,8 @@
 
 ## Description
 
+Active record veut dire "enregistrement actif" en Français.
+
 Ce design pattern permet de faire en sorte qu'un Model instancié serve à la fois d'entité,
 et à la fois pour faire des appels à la base de données.
 

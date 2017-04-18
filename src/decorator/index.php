@@ -1,6 +1,6 @@
 <?php
 
 /**
- * Decorator (Décorateur)
+ * Decorator
  */
 

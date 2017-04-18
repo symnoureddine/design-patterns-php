@@ -28,6 +28,8 @@ Auteur de cette exemple :
 
 * [Dependency injection](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection)
 
+* [Dependency injection container](https://github.com/stephweb/design-patterns-php/tree/master/src/dependency-injection-container)
+
 * [Facade](https://github.com/stephweb/design-patterns-php/tree/master/src/facade)
 
 * [Factory](https://github.com/stephweb/design-patterns-php/tree/master/src/factory)

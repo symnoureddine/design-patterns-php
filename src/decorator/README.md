@@ -1,9 +1,11 @@
-# Decorator (Décorateur) - Design Patterns - Exemple avec PHP 7
+# Decorator - Design Patterns - Exemple avec PHP 7
 
 
 
 
 ## Description
+
+Decorator veut dire "décorateur" en Français.
 
 Ce design pattern permet d’étendre les fonctionnalités d’un objet grâce à l’utilisation de l’héritage.
 
@@ -14,6 +16,6 @@ Ce design pattern permet d'ajouter des méthodes de modifier le comportement de 
 
 
 
-### Voici un exemple du design pattern Decorator (Décorateur) en PHP 7
+### Voici un exemple du design pattern Decorator en PHP 7
 
-* [Decorator (Décorateur) - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/decorator/index.php)
+* [Decorator - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/decorator/index.php)

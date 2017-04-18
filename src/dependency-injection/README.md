@@ -1,9 +1,11 @@
-# Dependency injection (injection de dépendances) - Design Patterns - Exemple avec PHP 7
+# Dependency injection - Design Patterns - Exemple avec PHP 7
 
 
 
 
 ## Description
+
+Dependency injection veut dire "injection de dépendances" en Français.
 
 Ce design pattern fournit un composant avec ses dépendances que ce soit via un constructeur,
 des appels de méthodes ou la configuration de propriétés.
@@ -18,6 +20,6 @@ quand nous avons besoin et ceux sans avoir à écrire en dur quelques dépendanc
 
 
 
-### Voici un exemple du design pattern Dependency injection (injection de dépendances) en PHP 7
+### Voici un exemple du design pattern Dependency injection en PHP 7
 
 * [Dependency injection - Source](https://github.com/stephweb/design-patterns-php/blob/master/src/dependency-injection/index.php)

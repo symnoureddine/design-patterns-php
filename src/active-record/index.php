@@ -10,7 +10,8 @@ use Models\Article;
 
 
 /**
- * Dans cette exemple, on ajoute un nouvelle Article
+ * Dans cette exemple, on ajoute un nouvelle Article.
+ * On fait donc une requête SQL INSERT INTO...
  */
 $article = new Article();
 $article->title = 'Titre 1';
@@ -21,7 +22,9 @@ $article->save();
 
 
 /**
- * Dans cette exemple, on modifie un Article (celui qui a l'id 12)
+ * Dans cette exemple, on modifie un Article (celui qui a l'id 12).
+ * On fait donc une requête SQL SELECT... pour récupérer l'article,
+ * et on fait ensuite une requête SQL UPDATE...
  */
 $article = Article::load()->find(12);
 $article->title = 'Titre 2';
