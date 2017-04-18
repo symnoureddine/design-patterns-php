@@ -4,13 +4,13 @@
  * Dependency injection container (DIC)
  */
 
-require_once 'Core/DIC.php';
+require_once 'Core/Container.php';
 require_once 'Mailing/Contracts/Mailers/MailerInterface.php';
 require_once 'Mailing/Mailers/SwiftMailer.php';
 require_once 'Mailing/Mailers/PHPMailer.php';
 require_once 'Mailing/SendMail.php';
 
-use Core\DIC;
+use Core\Container;
 use Mailing\SendMail;
 use Mailing\Mailers\SwiftMailer;
 use Mailing\Mailers\PHPMailer;
@@ -29,7 +29,7 @@ use Mailing\Mailers\PHPMailer;
  */
 
 
-$container = new DIC();
+$container = new Container();
 
 // On donne comme valeur une instance de "Mailing\Mailers\SwiftMailer" à la clé SwiftMailer.
 // On utilise la méthode "set" car on veut toujours la même instance de "Mailing\Mailers\SwiftMailer".

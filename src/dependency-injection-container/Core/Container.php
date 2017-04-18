@@ -7,7 +7,7 @@ use Exception;
 /**
  * Container
  */
-class DIC
+class Container
 {
     /**
      * @var array - Pour enregistrer les valeurs
