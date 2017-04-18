@@ -48,7 +48,7 @@ class Container
 
     /**
      * @param string $key
-     * @return mixed
+     * @return mixed - Une instance
      */
     public function get(string $key)
     {
