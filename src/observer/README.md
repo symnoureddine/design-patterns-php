@@ -7,7 +7,8 @@
 
 Observer veut dire "observateur" en Français.
 
-Ce design pattern permet...
+Ce design pattern permet d'envoyer un signal à des modules qui jouent le rôle d'observateurs.
+En cas de notification d'un objet, les observateurs effectuent alors l'action adéquate en fonction des informations qui parviennent depuis les modules qu'ils observent.
 
 
 

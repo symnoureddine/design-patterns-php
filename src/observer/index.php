@@ -33,5 +33,5 @@ $file->attach($videoObserver);
 $file->dettach($audioObserver);
 
 // On modifie le nom du fichier
-// Ceci va automatiquement notifier les Observers attaché au fichier
+// Ceci va automatiquement notifier les Observers attachés au fichier
 $file->setName('Fichier 1');
