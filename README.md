@@ -10,8 +10,8 @@ Voici quelques exemples de design patterns en PHP 7.
 ## Auteur
 
 Auteur de cette exemple :
-[Développeur de Grenoble](https://www.devandweb.fr)
-[![Developpeur de Grenoble](https://www.devandweb.fr/medias/website/developpeur-web.png)](https://www.devandweb.fr)
+[Développeur Freelance](https://www.devandweb.fr)
+[![Developpeur web Freelance](https://www.devandweb.fr/medias/website/developpeur-web.png)](https://www.devandweb.fr)
 
 
 
