@@ -23,7 +23,7 @@ abstract class Facade
             static::$instance = self::getFacadeInstace();
         }
 
-        return call_user_func_array([static::$instance, $method], $arguments);
+        return static::$instance->$method(...$arguments);
     }
 
     /**
