@@ -39,4 +39,3 @@ var_dump($router->getRoutes());
 
 // return array - Retourne bien qu'une seule router (la route de 'instance_api')
 var_dump($router3->getRoutes());
-

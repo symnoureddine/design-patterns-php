@@ -13,7 +13,6 @@ require_once 'Mailing/SendMail.php';
 use Core\Container;
 use Mailing\SendMail;
 use Mailing\Mailers\SwiftMailer;
-use Mailing\Mailers\PHPMailer;
 
 
 /**
